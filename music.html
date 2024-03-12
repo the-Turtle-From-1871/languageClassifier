@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=(device-width), initial-scale=1.0">
+        <title>Language Recognition Model</title>
+        <link rel="stylesheet" type="text/css" href="music.css">
+    </head>
+    <body>
+        <!-- Misc. Organization -->
+        <nav class="navbar">
+            <ul>
+              <li><a href="/index.html">Language Recognition Model</a></li>
+            </ul>
+          </nav>
+        <div id="titleBox" class="titleBoxes"><h1 class="title">Music Genre Recognition Model</h1></div>
+        <div id="background" class="normalText">
+            <p class="half">
+                This is our second tool. This tool recgonizes music from a variety of eras in our history. 
+                Simply play a short audio clip and let our machines learning model tell you what era it is from!
+            </p>
+        </div>
+
+        <!-- Recording Audio -->
+        <h1 class="title">Audio Recorder</h1>
+        
+        <div class="offset">
+            <audio id="audioElement" controls></audio>
+            <p><br></p>
+            <button id="startButton">Start Recording</button>
+            <button id="stopButton" disabled>Stop Recording</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html> 

@@ -71,7 +71,22 @@ img {
 
 /* text-alignment */
 
-.half {
-  text-align: left;
-  width: 45%;
-}
+  .half {
+    text-align: left;
+    width: 45%;
+    margin-left: 1%;
+  }
+
+  .title {
+    margin-left: 1%;
+  }
+
+  .offset {
+    margin-left: 1%;
+  }
+
+  /* Whole Page Styling */
+  body {
+    position: relative; /* Required for positioning the pseudo-element */
+    background-color: aqua;
+  }

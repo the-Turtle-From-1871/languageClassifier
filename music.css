@@ -1,48 +1,77 @@
 /* Navigation Bar Code */
+html {
+  background-color: #d8b791;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('RobotoSlab-VariableFont_wght.ttf') format('truetype'); /* Replace 'path/to/font.ttf' with the actual path to your font file */
+}
+
+#titleBox {
+  /*box property related components*/
+  width: 400px;
+  height: 32.5;
+  background-color:rgb(240, 204, 149);
+  box-shadow: 2.5px 2.5px 5px rgb(226, 127, 94);;
+  /*text related components*/
+  color: rgb(0, 0, 0);
+  font-size: 12.5px; /* Adjust the text size as needed */
+  font-family: 'RobotoSlab', sans-serif; /* Use the custom font as the preferred font family */
+  text-shadow: 2px 2px 4px rgb(226, 127, 94); /* Add shadow with specific color */
+}
+
+.titleBoxes {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 9px 10px;
+  border: 5px solid rgb(0, 0, 0); /* Example style for class */
+}
+
+.normalText {
+  font-size: 7.5 px;
+  color: rgb(0, 0, 0);
+  font-family: 'RobotoSlab', sans-serif; /* Use the custom font as the preferred font family */
+  /* text-shadow: 2px 2px 4px rgb(191, 191, 191); */
+  /* Add shadow with specific color */
+}
+
 .navbar {
-    background-color: #333;
-    margin-bottom: 1%;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar ul li {
-    display: inline;
-  }
-  
-  .navbar ul li a {
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .navbar ul li a:hover {
-    background-color: #555;
-  }
+  background-color: #333;
+  margin-bottom: 1%;
+}
 
-  /* text-alignment */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .half {
-    text-align: left;
-    width: 45%;
-    margin-left: 1%;
-  }
+.navbar ul li {
+  display: inline;
+}
 
-  .title {
-    margin-left: 1%;
-  }
+.navbar ul li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
 
-  .offset {
-    margin-left: 1%;
-  }
+.navbar ul li a:hover {
+  background-color: #555;
+}
 
-  /* Whole Page Styling */
-  body {
-    position: relative; /* Required for positioning the pseudo-element */
-    background-color: aqua;
-  }
+/* text-alignment */
+
+.half {
+  text-align: left;
+  width: 45%;
+}

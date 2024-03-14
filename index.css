@@ -22,6 +22,15 @@ img {
     src: url('RobotoSlab-VariableFont_wght.ttf') format('truetype'); /* Replace 'path/to/font.ttf' with the actual path to your font file */
 }
 
+.titleBoxes {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 9px 10px;
+    border: 5px solid rgb(0, 0, 0); /* Example style for class */
+}
+
 #titleBox {
     /*box property related components*/
     width: 400px;
@@ -35,22 +44,18 @@ img {
     text-shadow: 2px 2px 4px rgb(226, 127, 94); /* Add shadow with specific color */
 }
 
-.titleBoxes {
-    /* margin: 0 auto; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px 9px 10px;
-    border: 5px solid rgb(0, 0, 0); /* Example style for class */
-}
-
 .normalText {
     font-size: 7.5 px;
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'RobotoSlab', sans-serif; /* Use the custom font as the preferred font family */
     /* text-shadow: 2px 2px 4px rgb(191, 191, 191); */
     /* Add shadow with specific color */
 }
+
+
 
 .navbar {
     background-color: #333;
